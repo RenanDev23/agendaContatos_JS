@@ -1,0 +1,68 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Cabeça teste*/
+header {
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 35%;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+/*Corpo teste*/
+body {
+    background-color: #fefefe;
+    padding-top: 10px;
+}
+
+/*Formulário teste*/
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form button {
+    background-color: #7c7c81;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bol;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+/*Tabela teste*/
+.tabela, th, td{
+    width:100%;
+    border-collapse:collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align:left;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+th{
+    background-color: rgba(0, 0, 0, 0.401);
+    color:#fff
+}
+
+
